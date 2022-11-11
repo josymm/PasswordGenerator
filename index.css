@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&family=Karla&family=Manrope:wght@300&family=Maven+Pro&family=Raleway:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #121420;
+  font-family: "Karla", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .container {
+  background-color: #C9C5CB;
+  border-radius: 1rem;
+  border: 2px solid black;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body #title {
+  color: #010;
+  font-weight: bolder;
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+body #title span {
+  color: #8B5CF6;
+}
+body #description {
+  color: #010;
+}
+body #description span {
+  font-style: italic;
+}
+body .form {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 1rem;
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+body .form label {
+  font-weight: bold;
+}
+body .form .character-amount-container {
+  display: flex;
+  align-items: center;
+}
+body .form .number-input {
+  width: 2rem;
+}
+body .password-display {
+  background-color: #121420;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: 1px solid black;
+  color: #8B5CF6;
+  height: 2rem;
+  width: 30vw;
+  margin: 1.4rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-break: break-all;
+}
+body .password-container {
+  display: flex;
+  justify-content: space-between;
+}
+body .btn {
+  grid-column: span 2;
+  background-color: rgba(139, 92, 246, 0.5);
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: #121420;
+  border: 2px solid #8B5CF6;
+  margin: 0.5rem;
+}
+
+@media all and (max-width: 468px) {
+  .password-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=index.css.map */

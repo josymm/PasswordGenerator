@@ -1,0 +1,119 @@
+$color1: #121420;
+$color2: #8B5CF6;
+$color3: #010;
+$font: 'Karla', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&family=Karla&family=Manrope:wght@300&family=Maven+Pro&family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $color1;
+    font-family: $font;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        background-color: #C9C5CB;
+        border-radius: 1rem;
+        border: 2px solid black;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #title {
+        color: $color3;
+        font-weight: bolder;
+        font-size: 3rem;
+        
+        margin: 2rem 0;
+
+        span {
+            color: $color2;
+        }
+    }
+
+    #description {
+        color: $color3;
+        
+        span {
+            font-style: italic;
+        }
+       
+        
+    }
+
+    .form {
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 1rem;
+        column-gap: 3rem;
+        justify-content: center;
+        align-items: center;
+
+
+        label {
+            font-weight: bold;
+        }
+
+        .character-amount-container {
+            display: flex;
+            align-items: center;
+        }
+        
+        .number-input{
+            width: 2rem;
+        }
+
+        
+    }
+
+    .password-display {
+        background-color: $color1;
+        border-radius: 1rem;
+        padding: 1rem;
+        border: 1px solid black;
+        color: $color2;
+        height: 2rem;
+        width: 30vw;
+        margin: 1.4rem 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        word-break: break-all;
+    }
+
+    .password-container{
+        display: flex;
+        justify-content: space-between;
+        }
+
+        .btn {
+            grid-column: span 2;
+            background-color: rgba(139, 92, 246, 0.5);
+            padding: 0.5rem 1rem;
+            font-weight: bold;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            color: $color1;
+            border: 2px solid $color2;
+            margin:0.5rem;
+        }
+}
+
+@media all and (max-width: 468px) {
+    .password-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Random Password</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Generate a <span> random password</span></h1>
+        <p id="description">Never use an <span>insecure</span> password again.</p>
+        <div class="password-container">
+            <p class="password-display" id="password-display1">password</p>
+            <p class="password-display" id="password-display2">password</p>
+        </div>
+        <form class="form" id="passwordGeneratorForm">
+            <label for="characterAmountNumber">Number of Characters</label>
+            <div class="character-amount-container">
+                <input type="range" min="1" max="50" value="15" id="characterAmountRange">
+                <input class="number-input" type="number" min="1" max="50" value="15" id="characterAmountNumber">
+            </div>
+            <button type="submit" class="btn" onclick="generatePasword()">Generate Password</button>
+        </form>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
