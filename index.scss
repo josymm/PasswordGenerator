@@ -20,8 +20,9 @@ body {
 
     .container {
         max-width: 70vw;
+        max-height: 80vh;
         background-color: #C9C5CB;
-        border-radius: 0.7rem;
+        border-radius: 0.5rem;
         border: 2px solid black;
         padding: 3rem;
         display: flex;
@@ -34,7 +35,6 @@ body {
         color: $color3;
         font-weight: bolder;
         font-size: 3rem;
-        
         margin: 2rem 0;
 
         span {
@@ -85,8 +85,7 @@ body {
         padding: 1rem;
         border: 1px solid black;
         color: $color2;
-        height: 2rem;
-        width: 30vw;
+        
         margin: 1.4rem 0.5rem;
         display: flex;
         align-items: center;
@@ -118,10 +117,6 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 0.1rem 0;
     }
     
-    .container {
-        padding: 2rem;
-    }
 }
