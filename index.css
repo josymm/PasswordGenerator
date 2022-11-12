@@ -96,6 +96,10 @@ body .btn {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0.3rem;
+    margin: 0.1rem;
+  }
+  .container {
+    max-width: 65vw;
+    max-height: 75vw;
   }
 }/*# sourceMappingURL=index.css.map */
