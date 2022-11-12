@@ -20,7 +20,7 @@ body {
 
     .container {
         max-width: 70vw;
-        max-height: 80vh;
+        max-height: 85vh;
         background-color: #C9C5CB;
         border-radius: 0.5rem;
         border: 2px solid black;
@@ -85,7 +85,6 @@ body {
         padding: 1rem;
         border: 1px solid black;
         color: $color2;
-        
         margin: 1.4rem 0.5rem;
         display: flex;
         align-items: center;
@@ -95,7 +94,8 @@ body {
 
     .password-container{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
         }
 
         .btn {

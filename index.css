@@ -15,7 +15,7 @@ body {
 }
 body .container {
   max-width: 70vw;
-  max-height: 80vh;
+  max-height: 85vh;
   background-color: #C9C5CB;
   border-radius: 0.5rem;
   border: 2px solid black;
@@ -75,7 +75,8 @@ body .password-display {
 }
 body .password-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 body .btn {
   grid-column: span 2;
