@@ -19,8 +19,9 @@ body {
     align-items: center;
 
     .container {
+        max-width: 70vw;
         background-color: #C9C5CB;
-        border-radius: 1rem;
+        border-radius: 0.7rem;
         border: 2px solid black;
         padding: 3rem;
         display: flex;
@@ -72,7 +73,7 @@ body {
         .number-input{
             width: 2rem;
             margin: 0.5rem;
-            padding: 0.2rem;
+            padding: 0.1rem;
         }
 
         
@@ -121,4 +122,5 @@ body {
     
     .password-display {
         margin: 0.3rem;
+}
 }

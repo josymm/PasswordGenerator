@@ -14,8 +14,9 @@ body {
   align-items: center;
 }
 body .container {
+  max-width: 70vw;
   background-color: #C9C5CB;
-  border-radius: 1rem;
+  border-radius: 0.7rem;
   border: 2px solid black;
   padding: 3rem;
   display: flex;
@@ -56,6 +57,8 @@ body .form .character-amount-container {
 }
 body .form .number-input {
   width: 2rem;
+  margin: 0.5rem;
+  padding: 0.1rem;
 }
 body .password-display {
   background-color: #121420;
@@ -93,5 +96,8 @@ body .btn {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .password-display {
+    margin: 0.3rem;
   }
 }/*# sourceMappingURL=index.css.map */
