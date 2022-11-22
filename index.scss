@@ -24,7 +24,7 @@ body {
         background-color: #C9C5CB;
         border-radius: 0.5rem;
         border: 2px solid black;
-        padding: 3rem;
+        padding: 2.5rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -82,10 +82,10 @@ body {
     .password-display {
         background-color: $color1;
         border-radius: 1rem;
-        padding: 3rem;
+        padding: 1.5rem;
         border: 1px solid black;
         color: $color2;
-        margin: 1.4rem 0.5rem;
+        margin: 0.7rem 0.5rem;
         display: flex;
         align-items: center;
         justify-content: center;

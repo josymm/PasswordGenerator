@@ -19,7 +19,7 @@ body .container {
   background-color: #C9C5CB;
   border-radius: 0.5rem;
   border: 2px solid black;
-  padding: 3rem;
+  padding: 2.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,10 +64,10 @@ body .form .number-input {
 body .password-display {
   background-color: #121420;
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 1.5rem;
   border: 1px solid black;
   color: #8B5CF6;
-  margin: 1.4rem 0.5rem;
+  margin: 0.7rem 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -77,6 +77,8 @@ body .password-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: auto;
+  height: auto;
 }
 body .btn {
   grid-column: span 2;
