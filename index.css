@@ -64,8 +64,8 @@ body .form .number-input {
 }
 body .password-display {
   background-color: #121420;
-  border-radius: 1rem;
-  padding: 1rem;
+  border-radius: 0.7rem;
+  padding: 0.7rem;
   border: 1px solid black;
   color: #8B5CF6;
   margin: 0.7rem 0.5rem;
